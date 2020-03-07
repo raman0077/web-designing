@@ -1,0 +1,216 @@
+.main{
+	width: 100%;
+  float:left;
+}
+.raman{
+    width: 50%;
+    float: left;
+	height:150px;	 
+}
+.raman-a{
+	width: 50%;
+    float: left;
+	height:150px;	
+}
+.raman img{
+	padding: 20px;
+}
+.raman-pics{
+    width: 55%;
+    float: left;
+	  height:400px;
+	  background-color: #22354a;		
+}
+.raman-para{
+    width: 45%;
+    float: left;
+    height:400px;
+    background-color: #22354a;
+}
+.raman-pics img{
+    margin: 30px;
+    margin-top: 60px;
+    border:5px;
+    border-style: solid;
+    border-color: white;
+
+}
+.second{
+    width: 100%;
+    float: left;
+    height:950px;
+    background-color: #77853c;
+}
+.green{ 
+  margin-top: -15px;
+  margin-left: 37px;
+    width:95%;
+    float: left;
+    height:350px;
+    background-color: #d1da59;
+}
+.white{ 
+    margin-bottom: 25px;
+    width:95%;
+    margin-left: 37px;
+    float: left;
+    height:550px;
+    background-color: white;
+}
+.white-a{
+  margin-bottom: 25px;
+    width:95%;
+    margin-left: 37px;
+    float: left;
+    height:100px;
+    background-color: white;
+}
+.white-b{
+margin-bottom: 25px;
+    width:95%;
+    margin-left: 37px;
+    float: left;
+    height:400px;
+    background-color: white;
+}
+.white-b div{
+margin: 10px;
+}
+.abc{
+  margin-top: 20px;
+  margin-left: -12px;
+  width: 25%;
+  float: left;
+  height: 40px;
+  background-color: #24344a;
+}
+.abcd{
+  margin-top: 20px;
+  margin-left: -50px;
+  width: 25%;
+  float: left;
+  height: 40px;
+  background-color: #24344a;
+}
+.white-b img{
+    border:5px;
+    border-style: solid;
+    border-color: lightgray;
+}
+.last{
+    width: 100%;
+    float: left;
+    height:600px;
+    background-color: white;
+}
+.green img{
+  border:5px;
+  border-style: solid;
+  border-color: white;
+}
+.a{
+    width:15%;
+    float: left;
+    height:350px;
+    background-color: #d1da59;
+}
+.b{
+    width:15%;
+    float: left;
+    height:350px;
+    background-color: #d1da59;
+}
+.c{
+    width:15%;
+    float: left;
+    height:350px;
+    background-color: #d1da59;
+}
+.d{
+    width:15%;
+    float: left;
+    height:350px;
+    background-color: #d1da59;
+}
+.e{
+    width:15%;
+    float: left;
+    height:150px;
+    background-color: #d1da59;
+}
+.f{
+    width:15%;
+    float: left;
+    height:350px;
+    background-color: #d1da59;
+}
+.g{
+    width:31%;
+    float: left;
+    height:350px;
+  
+}
+.h{
+    width:31%;
+    float: left;
+    height:350px;
+
+   
+}
+.i{
+    width:31%;
+    float: left;
+    height:350px;
+ 
+}
+.last-a{
+width: 50%;
+    float: left;
+    height:240px;
+    background-color: white;
+}
+.last-b{
+width: 100%;
+    float: left;
+    height:120px;
+}
+.last-ab{
+width: 50%;
+    float: left;
+    height:240px;
+    background-color: white; 
+}
+.last-c{
+width: 100%;
+    float: left;
+    height:100px;
+    background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:25px;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+@media only screen and (max-width: 600px) {
+.main,.raman,.raman-a,.raman img,.raman-pics,.raman-para,.pics img,.second,.green,.white,.white-a,.white-b,.abc,.abcd,.white-b div,.white-b img,.last,.green img,.a,.b,.c,.d,.e,.f,.g,.h,.i,.last-a,.last-b,.last-c,.last-ab {
+width: 100%;
+float: left;
+}
+}
