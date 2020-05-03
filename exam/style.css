@@ -1,0 +1,92 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.a {
+  float:left;
+  width:100%;
+  height:100%;
+  background-color: #ffde00;
+}
+.b{
+  float: left;
+  width: 100%;
+  background-color: #ffde00;
+  height:0px;
+  margin: 3rem;
+}
+.raman{
+  float: left;
+  width: 20%;
+  background-color: #ffde00;
+  height:50px;
+}
+img src{
+  margin-top: 0;
+  height: 5cm;
+  width: 1cm;
+}
+button{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#ffde00;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#ffde00;
+}
+.c {
+  background-color:#ffde00;
+  float: left;
+  height: 7cm;
+  width:30%;
+  margin: 3rem;
+}
+.d {
+  float:left;
+  width:50%;
+  height: 7cm;
+  background-color: #ffde00;
+}
+.e {
+  float:left;
+  width:20%;
+  height: 2cm;
+  padding:0 20px;
+  background-color: #ffde00;
+ 
+}
+.f{
+  float: left;
+  width: 100%;
+  background-color: #ffde00;
+  height:300px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .a, .b, .c, .d,.e .f{
+    width:100%;
+  }
+}
