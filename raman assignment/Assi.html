@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			font-family: arial;
+		}
+		.container{
+			
+			display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+            background-color: #2196F3;
+            padding: 0px;
+		}
+		.container div {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            color: white;
+        }
+		.it1{
+			grid-area: 1/1/4/3;
+			background-color: #357FFA;
+		}
+		.it2{
+			grid-area: 4/1/7/3;
+			background-color: #A1FA76;
+		}
+		.it3{
+			grid-area: 7/1/10/3;
+			background-color: #3CB6DE;
+		}
+		.it4{
+			grid-area: 10/1/13/3;
+			background-color: #8799B0;
+		}
+		.it5{
+			grid-area: 1/3/2/6;
+			background-color: black;
+		}
+		.it6{
+			grid-area: 2/3/10/5;
+			background-color: grey;
+		}
+		.it7{
+			grid-area: 2/5/10/6;
+			background-color: skyblue;
+		}
+		.it8{
+			grid-area: 10/3/13/4;
+			background-color: #BA42C7;
+		}
+		.it9{
+			grid-area: 10/4/13/5;
+			background-color: lightblue;
+		}
+		.it10{
+			grid-area: 10/5/13/6;
+			background-color: #C9B216;
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="it1"><h2>First 3 Steps</h1></div>
+		<div class="it2"><p>1.Define container element as a grid <br>(display:grid)</p></div>
+		<div class="it3"><p>2.Define column and row sizes with<br>(grid-template-columns / grid-template-<br>rows)</p></div>
+		<div class="it4"><p>3.Place child elements into the grid</p></div>
+		<div class="it5"><p>CSS Grid vs. Others</p></div>
+		<div class="it6"><h5>Grid</h5><p>Custom Grid Sizing<br>Custom classes<br>Custom media queries</p></div>
+		<div class="it7"><h5>Bootstrap/<br>Foundation</h5><p>12 Columns (BF)<br>Predefined classes (BF)<br>Four/Five breakpoints(B/F)</p><h5>Main take away:Rapid<br>Website Protyping</h5></div>
+		<div class="it8"><h6>Grid Links</h6><p>CSS Grid Tricks<br>Grid Garden<br>MDN:Grid</p></div>
+		<div class="it9"><h6>Other Links</h6><p>Flexbox<br>Bootstrap<br>Foundation</p></div>
+		<div class="it10"><p>The above grid item<br>become a grid<br>container ready for a<br>new grid template</p></div>
+		
+	</div>
+
+</body>
+</html>
