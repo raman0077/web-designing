@@ -1,0 +1,38 @@
+.navbar-brand img{
+    max-width: 50px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #ffff !important;
+}
+.link-globe{
+    padding-right: 20px !important;
+    border-right: 1px solid #494949;
+}
+banner {
+    display: block;
+    padding-top: 8%;
+	
+}
+banner h1, banner h4
+{
+    padding: 0% 26% 0% 26%;
+}
+
+.btn.btn-primary.btn-xl {
+	padding: 1.2rem;
+}
+.partner-list
+{
+    margin-top:5%;
+}
+.partner-list h5{
+    padding-bottom:2%;
+}
+.partner-ul {
+	display: flex;
+	flex-flow: row wrap;
+}
+.partner{
+    list-style:none;
+    padding: 0 3.6%;
+}
