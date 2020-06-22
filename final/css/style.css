@@ -1,0 +1,65 @@
+body{
+    background:#f4f4f5;
+}
+.header{
+    background: #1e1835 !important;
+}
+.banner
+{
+    background: #1e1835;
+    padding-top:12rem;
+    padding-bottom: 12rem;
+}
+.row.banner-heading {
+	padding: 0px 7rem;
+	text-align: center;
+}
+.m-0-auto
+{
+    margin:0 auto;
+}
+.extra-section
+{
+    padding: 7.2rem 0;
+}
+.page-holder {
+	padding: 0 7.2rem;
+	width: 100%;
+}
+.card-container{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    flex:35%;
+}
+.footer
+{
+    background: #1e1835;
+    padding:1rem !important;
+    padding-top: 5.5rem !important;
+}
+.link-list {
+    list-style: none;
+    padding-left:0 !important;
+}
+.link-list-col {
+	padding: 0 2.3rem;
+}
+.footer-list-item {
+	margin-top: 0.5rem;
+}
+.footer-list-item a{
+    color: #ddd
+}
+.link-list-col.footer-form {
+    max-width: 34%;
+   
+}
+.copyright-container {
+	width: 100%;
+	text-align: center;
+	padding-top: 2rem;
+}
+.copyright-text {
+	padding: 0px;
+	margin: 0;
+}
