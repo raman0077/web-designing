@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title></title>
+        <style>
+            #map {
+              height: 600px;
+              width: 100%; 
+             }
+          </style>
+</head>
+<body>
+
+<div id="map"></div>
+<script type="text/javascript">
+const url = "https://api.wheretheiss.at/v1/satellites/25544";
+
+async function getIss () {
+const response = await fetch(url); const data = await response.json(); 
+const latt = data.latitude;
+const long = data.longitude;
+
+
+var iss = {lat: latt, lng: long};
+  
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 4, center: iss});
+
+      var marker = new google.maps.Marker({position: iss, map: map});
+ }
+
+
+</script>
+
+  <script>
+
+    function initMap() {
+        getIss();
+      setInterval(getIss,2000);
+      
+    }
+        </script>
+        <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQEqUlFnQwrP5KDdzmVgFJaU6Hm4KyEXY&callback=initMap">
+        </script>
+</body>
+</html>
