@@ -1,0 +1,17 @@
+body{
+    background: darkred;
+}
+#c{
+    width: 500px;
+    height: 500px;
+    color: #fff;
+}
+
+
+#c p{
+    font-size: 10px;
+}
+
+#c p:hover{
+    font-size: 20px;
+}
