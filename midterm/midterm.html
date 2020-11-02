@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>midterm</title>
+</head>
+<body>
+	<form>
+    <table>
+        <tr>
+            <td>
+                <label for="RAMANJOT">First Name</label>
+            </td>
+            <td>
+                <input type="text" id="RAMANJOT" name="username">
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <label for="SINGH">Last Name</label>
+            </td>
+            <td>
+                <input type="text" id="SINGH" name="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="UNUMBER">Number</label>
+            </td>
+            <td>
+                <input type="text" id="UNUMBER" name="usermail">
+                <button type="button">Check</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age</label>
+            </td>
+            <td>
+                <input type="text" name="userage" id="age" size="2" maxlength="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Country</label>
+            </td>
+            <td>
+                <input type="text" value="India" name="country" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    <label for="pass">Password</label>
+            </td>
+            <td>
+                    <input type="password" id="pass">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="res">Resume</label>
+            </td>
+            <td>
+                <input type="file" id="res">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>BLOOD GROUP</label>
+            </td>
+            <td>
+                <label>
+                    <input type="checkbox" checked> A
+                </label>
+                <label>
+                    <input type="checkbox"> B
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" value="f" name="gender"> Female</label>
+                    <label>
+                    <input value="m" type="radio" name="gender"> Male</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    <label for="city">City</label>
+            </td>
+            <td>
+                    <select id="city" name="city">
+                        <option disabled selected>--Choose City--</option>
+                            <optgroup label="Metros">
+                                <option>New Delhi</option>
+                                <option>Mumbai</option>
+                                <option>Channai</option>
+                                <option>Kolkata</option>
+                            </optgroup>
+                            <optgroup label="Others">
+                                <option>Noida</option>
+                                <option>Gurgram</option>
+                                <option>Faridabad</option>
+                                <option>Gaziabad</option>
+                            </optgroup>
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Address</label>
+            </td>
+            <td>
+                <textarea rows="4" cols="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+</form>
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<form action="/action_page.php">
+  <label for="cars">Martial status:</label>
+  <select name="status" id="status">
+    <option value="single">single</option>
+    <option value="married">married</option>
+    <option value="divorced">divorced</option>
+    <option value="living">living</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+</body>
+</html>
