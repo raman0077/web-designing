@@ -1,0 +1,10 @@
+food{  
+    background-color: pink;  
+}  
+ 
+name, price, description, calories{  
+    font-size:25px;  
+    display:block;  
+    color: blue;  
+    margin-left: 50px;  
+}  
