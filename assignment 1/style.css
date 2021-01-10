@@ -1,0 +1,12 @@
+/*** XML demonstration ***/
+
+bookstore {  
+    background-color: pink;  
+}  
+ 
+title,author, price {  
+    font-size:25px;  
+    display:block;  
+    color: blue;  
+    margin-left: 50px;  
+}  
